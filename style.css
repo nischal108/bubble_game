@@ -1,0 +1,120 @@
+/* importing fonts */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+
+/* boiler plate */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+#main{
+  width: 100%;
+  height: 100%;
+  background-color: #a7d5f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#game{
+  width: 70%;
+  height: 90%;
+  background-color: #67b1e7;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 7px 9px -4px rgb(0 0 0 / 0.9);
+}
+.heading{
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #246892;
+  padding: 4px;
+  }
+
+.heading>h1{
+  font-size: 1.3rem;
+  color: #fff;
+  -webkit-text-stroke: #000 0.5px;
+}
+.heading>p{
+  font-size: 0.7rem;
+  color: #eee;
+}
+#ptop{
+  width: 100%;
+  height: 50px;
+  background-color:#3476a6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.score{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.score>h4{
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+.boxdetail{
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+.boxdetail:hover{
+  -webkit-box-shadow: 3px 3px 5px -1px rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+
+#pbtm{
+  width: 100%;
+  height:calc(100%-(10vh+50px));
+  /* background-color: #000000; */
+  padding: 18px;
+}
+
+#pbtm{
+  display: flex;
+  /* align-items: space-between; */
+  /* align-items: center; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.coin{
+  background-color: #05283e;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  color: #fff;
+}
+.coin{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.coin:hover{
+  box-shadow: 0px 6px 12px -3px rgba(0, 51, 255, 0.803);
+}
