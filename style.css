@@ -118,3 +118,25 @@ html,body{
 .coin:hover{
   box-shadow: 0px 6px 12px -3px rgba(0, 51, 255, 0.803);
 }
+
+
+
+/* //after game over  */
+
+#over{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#over>h1{
+  font-size: 4vw;
+  color: #222;
+}
+#over>p{
+  font-size: 1.1vw;
+  color: #444;
+  text-decoration: underline;
+}
